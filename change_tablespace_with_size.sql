@@ -11,7 +11,7 @@ $fnc$
 declare
     _relnamespace   oid;
     _relname        name;
-    _relsize        int4;
+    _relsize        int8;
     _result         int8:=0;
     _relspcoid_src  int4; /* this is int4, because it can be 0 which is not very nice for an oid */
     _ddl            text;

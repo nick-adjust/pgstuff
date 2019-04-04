@@ -19,7 +19,6 @@ create or replace function try_disable_vac
 $fnc$
 declare
     _relname name;
-    _timeout interval;
     _start_ts timestamptz;
     _cursor refcursor;
 begin
